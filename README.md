@@ -22,4 +22,4 @@ var result = writer.render(parsed);
 
 #### markdown to bbcode webpage:
 
-https://ddormer.github.io/markdown-to-bbcode-site/
+https://zlucplayz.github.io/markdown-to-bbcode-site/
