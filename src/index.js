@@ -121,11 +121,9 @@ function heading(node, entering) {
     var starting_size = 8;
     if (entering) {
         this.cr();
-        this.tag('b');
-        this.tag("size=" + (starting_size - node.level));
+        this.tag('h1');
     } else {
-        this.tag("/size");
-        this.tag('/b');
+        this.tag('/h1');
         if (this.options.newline_after_heading) {
             this.lit(this.options.softbreak);
         }
