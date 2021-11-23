@@ -145,11 +145,9 @@ function code_block(node) {
         attrs.push(["tag_value", this.esc(info_words[0])]);
     }
     this.cr();
-    this.tag("pre");
     this.tag("code", attrs);
     this.out(node.literal);
     this.tag("/code");
-    this.tag("/pre");
     this.cr();
 }
 
